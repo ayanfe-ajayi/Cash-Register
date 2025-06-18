@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Cash Register Project</h1>
+      <div class="change-due" id="change-due">
+      </div>
+      <label class="input-text" for="user-input"
+        >Enter cash from customer:</label
+      >
+      <input class="user-input" id="cash" type="number" />
+      <button class="purchase-btn" id="purchase-btn">Purchase</button>
+      <div class="container">
+        <div class="screen">
+            <div class="total-display">Total: $<span id="total"></span> </div>
+        </div>
+        <div class="neck"></div>
+        <div class="body">
+          <div class="body-left">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+          <div class="body-right" id="drawer">
+            <strong>Change in drawer:</strong>
+            <p>Pennies: <span></span></p>
+            <p>Nickels: <span></span></p>
+            <p>Dimes: <span></span></p>
+            <p>Quarters: <span></span></p>
+            <p>Ones: <span></span></p>
+            <p>Fives: <span></span></p>
+            <p>Tens: <span></span></p>
+            <p>Twenties: <span></span></p>
+            <p>Hundreds: <span></span></p>
+          </div>
+        </div>
+        <div class="base">
+          <div class="base-circle"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
